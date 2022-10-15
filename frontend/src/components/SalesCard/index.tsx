@@ -29,7 +29,7 @@ function SalesCard() {
         setSales(response.data.content);
       })
 
-  }, []);
+  }, [minDate , maxDate]);
 
   return (
     <div className="dsmeta-card">
